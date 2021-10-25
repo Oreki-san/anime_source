@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <div class="card" style="text-align:center;">
+      <div class="card-body">
+        <h3 class="card-title">{{ title }}</h3>
+      </div>
+      <ul class="list-group list-group-flush">
+        {% if author %}
+          <li class="list-group-item">Author: {{ author }}</li>
+        {% endif %}
+
+        {% if est_time %}
+          <li class="list-group-item">Est time: {{ est_time }}</li>
+        {% endif %}
+
+        {% if part %}
+          <li class="list-group-item">Part: {{ part }}</li>
+        {% endif %}
+        <li class="list-group-item">Similarity: {{ similarity }} %</li>
+      </ul>
+      <div class="card-body">        
+        {% if url %}
+          <a class="btn-example btn btn-outline-dark btn-lg" href="{{ url }}" role="button">Go to source</a>
+        {% endif %}
+       
+      </div>
+    </div>
+{% endblock %}
+
+{% block photo %} 
+    <!-- Image preview -->
+    <div class="p-4"> 
+      <div class="c">
+        <div class="i"><img class="img" src="{{ photo }}"></div>
+        <div class="s1"></div>
+        <div class="s2"></div>
+        <div class="s3"></div>
+      </div>
+    </div>
+{% endblock %}
