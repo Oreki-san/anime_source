@@ -12,3 +12,10 @@ altr="anime_source" border="0">
 # setup environment
 - rename .env.example -> .env and set 
 [SAUCE_API](https://saucenao.com/user.php?page=search-api)
+
+# Install
+- git clone https://github.com/waydk/anisource-web
+- cd anisource-web
+- pip3 install -r requirements.txt
+- python3 run.py
+- Releases
