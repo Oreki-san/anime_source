@@ -14,7 +14,7 @@ altr="anime_source" border="0">
 [SAUCE_API](https://saucenao.com/user.php?page=search-api)
 
 # Install
-- `git clonehttps://github.com/Oreki-san/anime_source`
+- `git clone https://github.com/Oreki-san/anime_source`
 - `cd anisource-web`
 - `pip3 install -r requirements.txt`
 - `python3 run.py`
