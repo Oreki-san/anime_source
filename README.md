@@ -10,4 +10,5 @@ altr="anime_source" border="0">
 -  environs 9.3.3
 
 # setup environment
-- rename .env.example -> .env and set (SAUCE_API)(https://saucenao.com/user.php?page=search-api)
+- rename .env.example -> .env and set (
+[SAUCE_API](https://saucenao.com/user.php?page=search-api)
