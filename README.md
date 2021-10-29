@@ -15,7 +15,7 @@ altr="anime_source" border="0">
 
 # Install
 -   `git clone https://github.com/Oreki-san/anime_source`
--   `cd anisource-web`
+-   `cd anime_source`
 -   `pip3 install -r requirements.txt`
 -   `python3 run.py`
 -   `Releases`
